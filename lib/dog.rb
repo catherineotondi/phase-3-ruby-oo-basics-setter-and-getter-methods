@@ -1,24 +1,11 @@
 class Dog
-
-      # setter method
+  attr_reader :name
+  attr_reader :breed
   def name=(name)
-    @name = name
+      @name = name
   end
-
-  # getter method
-  def name
-    @name
+  def breed=(breed)
+      @breed = breed        
   end
-
-
-       # setter method
-       def breed=(breed)
-        @breed = breed
-      end
-    
-      # getter method
-      def breed
-        @breed
-      end
 
 end
